@@ -1,0 +1,37 @@
+{
+  "Postgres": {
+    "Host": "127.0.0.1",
+    "Port": 5432,
+    "DatabaseName": "KubasApp",
+    "Username": "postgres",
+    "Password": "postgres"
+  },
+  
+  "Serilog": {
+    "File": {
+      "Enabled": false,
+      "Path": ""
+    },
+    "Seq": {
+      "Enabled": false,
+      "Url": ""
+    },
+    "Sentry": {
+      "Enabled": false,
+      "Dsn": ""
+    }
+  },
+  "RabbitMq": {
+    "Enabled": false,
+    "Hosts": [
+      {
+        "Host": "localhost",
+        "Port": 5672
+      }
+    ],
+    "ApplicationName": "KubasApp",
+    "VirtualHost": "/",
+    "Username": "guest",
+    "Password": "guest"
+  }
+}

@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KubasApp.Core", "KubasApp.Core\KubasApp.Core.csproj", "{528ECD99-0183-4B74-A8B4-109D38DCD651}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KubasApp.Host", "KubasApp.Host\KubasApp.Host.csproj", "{E07D7421-91BE-4661-89C8-0232BFDC0A67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KubasApp.Admin.Api", "KubasApp.Admin.Api\KubasApp.Admin.Api.csproj", "{34465492-643B-45BE-8EFC-B1697665E57B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KubasApp.Database", "KubasApp.Database\KubasApp.Database.csproj", "{F68A50F0-3DA1-44D8-B3AE-16503D606CC5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{528ECD99-0183-4B74-A8B4-109D38DCD651}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{528ECD99-0183-4B74-A8B4-109D38DCD651}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{528ECD99-0183-4B74-A8B4-109D38DCD651}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{528ECD99-0183-4B74-A8B4-109D38DCD651}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E07D7421-91BE-4661-89C8-0232BFDC0A67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E07D7421-91BE-4661-89C8-0232BFDC0A67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E07D7421-91BE-4661-89C8-0232BFDC0A67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E07D7421-91BE-4661-89C8-0232BFDC0A67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34465492-643B-45BE-8EFC-B1697665E57B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34465492-643B-45BE-8EFC-B1697665E57B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34465492-643B-45BE-8EFC-B1697665E57B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34465492-643B-45BE-8EFC-B1697665E57B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F68A50F0-3DA1-44D8-B3AE-16503D606CC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F68A50F0-3DA1-44D8-B3AE-16503D606CC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F68A50F0-3DA1-44D8-B3AE-16503D606CC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F68A50F0-3DA1-44D8-B3AE-16503D606CC5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
